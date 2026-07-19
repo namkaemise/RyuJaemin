@@ -49,13 +49,13 @@ Use a JavaScript array like this:
 
 const story = [
 {
-    background: "assets/backgrounds/prologue1.jpg",
+    background: "assets/backgrounds/무제413_20260718172638.png",
     character: "",
     name: "",
     text: "..."
 },
 {
-    background: "assets/backgrounds/prologue2.jpg",
+    background: "assets/backgrounds/무제413_20260718172638.png",
     character: "",
     name: "",
     text: "..."
