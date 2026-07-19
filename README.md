@@ -283,7 +283,7 @@ h1{
         </div>
         <div class="wave"></div>
     </div>
-    <audio id="bgm" src="ScreenRecording_02-15-2026 09-56-50_1.mp3"></audio>
+    <audio id="bgm" src="Vixx Chained Up ( (Chained Up)).mp3"></audio>
 </section>
 
 <div id="modal" class="modal" onclick="closeModal()">
