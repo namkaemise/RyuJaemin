@@ -268,12 +268,10 @@ h1{
     <div class="gallery-grid">
         <img src="IMG_5991.webp" onclick="openModal(this.src)">
         <img src="IMG_6609.webp" onclick="openModal(this.src)">
-        <img src="이미지3.jpg" onclick="openModal(this.src)">
-        <img src="이미지4.jpg" onclick="openModal(this.src)">
-        <img src="이미지5.jpg" onclick="openModal(this.src)">
-        <img src="이미지6.jpg" onclick="openModal(this.src)">
-        <img src="이미지7.jpg" onclick="openModal(this.src)">
-        <img src="이미지8.jpg" onclick="openModal(this.src)">
+        <img src="IMG_5999.webp" onclick="openModal(this.src)">
+        <img src="IMG_6044.webp" onclick="openModal(this.src)">
+        <img src="IMG_6052.webp" onclick="openModal(this.src)">
+        <img src="IMG_6047.webp" onclick="openModal(this.src)">
     </div>
 </section>
 
