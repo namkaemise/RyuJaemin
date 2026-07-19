@@ -67,3 +67,25 @@ const story = [
 - Add comments.
 - Use reusable functions.
 - Do not use any external libraries.
+
+Mobile Support
+
+The game must fully support both desktop and mobile devices.
+
+Controls:
+- Mouse click
+- Touch tap
+- Keyboard (Space and Enter)
+
+Players should be able to:
+- Advance dialogue by clicking or tapping anywhere on the screen.
+- Select choices by tapping.
+- Press buttons using touch.
+- Scroll the backlog with touch gestures.
+
+The UI should automatically adjust to different screen sizes while maintaining a 16:9 layout.
+
+Buttons should be large enough for comfortable finger tapping.
+
+Avoid hover-only interactions.
+Every feature should work with touch input.
