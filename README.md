@@ -1,161 +1,69 @@
-Create a clean and expandable Otome Game player name input screen using HTML, CSS, and JavaScript.
+You are an expert HTML, CSS, and JavaScript developer.
 
-This project will eventually become a complete visual novel/otome game, so please keep the code modular, organized, and easy to expand.
+Create a simple browser-based otome game that runs on GitHub Pages.
 
-## General Requirements
+Use only:
+- HTML
+- CSS
+- Vanilla JavaScript
 
-- Use HTML, CSS, and vanilla JavaScript only.
-- Separate all files properly.
-- Write clean, well-commented code.
-- Design the layout for a 1920×1080 resolution.
-- Make it responsive so it still looks good on smaller screens.
+Files:
+- index.html
+- style.css
+- script.js
+- assets/
 
-------------------------------------------------
+Requirements:
 
-## Name Input Screen
+1. Title Screen
+- Display the game title.
+- A "Start" button.
+- Clicking Start opens the name input screen.
 
-When the game launches, the first screen should ask the player to enter their name.
+2. Name Input Screen
+- Display the text:
+  "Please enter your name."
+- The input field should be empty by default.
+- A Confirm button.
+- Save the player's name.
+- Replace every "[Player]" in dialogue with the entered name.
 
-The layout should be centered both horizontally and vertically.
+3. Prologue
+- Display a background image.
+- Display a dialogue box at the bottom.
+- Display a character name box above the dialogue box.
+- Show dialogue with a typewriter animation.
+- Clicking anywhere advances the dialogue.
+- Fade transition between scenes.
 
-Display the following title above the input box:
+4. UI
+- Resolution designed for 1920×1080.
+- Modern otome game style.
+- Elegant fantasy-themed interface.
+- Large readable text.
+- Smooth button hover animations.
 
-"Please enter your name."
+5. Story Data
 
-------------------------------------------------
+Use a JavaScript array like this:
 
-## Custom PNG Input Box
+const story = [
+{
+    background: "assets/backgrounds/prologue1.jpg",
+    character: "",
+    name: "",
+    text: "..."
+},
+{
+    background: "assets/backgrounds/prologue2.jpg",
+    character: "",
+    name: "",
+    text: "..."
+}
+];
 
-IMPORTANT:
-
-Do NOT use the browser's default input appearance.
-
-I will create my own PNG input box.
-
-Use the following image:
-
-images/ui/name_box.png
-
-The PNG is only the decorative frame.
-
-Place a completely transparent HTML input element perfectly on top of the PNG image.
-
-The player should feel like they are typing directly inside the PNG artwork.
-
-Input settings:
-
-- Background: transparent
-- Border: none
-- Outline: none
-- Box shadow: none
-- Text color: white
-- Text alignment: center
-- Font size: about 30px
-- Placeholder: none
-- Default value: empty
-- Max length: 10 characters
-- autocomplete="off"
-- spellcheck="false"
-
-The cursor should appear immediately when the player clicks anywhere inside the PNG frame.
-
-------------------------------------------------
-
-## Start Button
-
-I will also create a custom PNG button.
-
-Use:
-
-images/ui/start_button.png
-
-Display this button below the name box.
-
-When clicked:
-
-If the input is empty:
-
-Display a small warning message below the input box:
-
-"Please enter your name."
-
-Do not switch pages.
-
-If a name has been entered:
-
-Save it into LocalStorage using:
-
-playerName
-
-Then redirect the player to:
-
-story.html
-
-------------------------------------------------
-
-## JavaScript
-
-Whenever story.html loads, create:
-
-const playerName = localStorage.getItem("playerName");
-
-This variable should be easy to use throughout the game.
-
-Example:
-
-Hello, ${playerName}
-
-------------------------------------------------
-
-## File Structure
-
-index.html
-
-story.html
-
-css/
-    style.css
-
-js/
-    script.js
-
-images/
-    background/
-        무제413_20260718172638.png
-
-    ui/
-        name_box.png
-        start_button.png
-
-------------------------------------------------
-
-## Future Expansion
-
-Please organize the project so the following features can easily be added later:
-
-- Dialogue system
-- Character sprites
-- Background switching
-- Choice system
-- Affection system
-- Save / Load
-- Auto mode
-- Skip mode
-- Settings menu
-- Gallery
-- CG Viewer
-- Live2D characters
-- Multiple routes
-- Multiple endings
-
-------------------------------------------------
-
-## Important
-
-The HTML input should be completely invisible.
-
-Only the PNG frame should be visible.
-
-The player should never notice that a standard HTML input element is being used.
-
-The final result should feel like a professional Japanese Otome Game UI rather than a standard web form.
+6. Code
+- Keep the code clean.
+- Add comments.
+- Use reusable functions.
+- Do not use any external libraries.
