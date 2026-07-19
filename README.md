@@ -266,7 +266,7 @@ h1{
 <section id="gallery" class="section">
     <h2 style="color:#c084fc;margin-bottom:40px;">GALLERY</h2>
     <div class="gallery-grid">
-        <img src="IMG_5991.webp" onclick="openModal(this.src)">
+        <img src="IMG_5990.webp" onclick="openModal(this.src)">
         <img src="IMG_5999.webp" onclick="openModal(this.src)">
         <img src="IMG_6044.webp" onclick="openModal(this.src)">
         <img src="IMG_6052.webp" onclick="openModal(this.src)">
