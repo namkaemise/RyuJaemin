@@ -251,7 +251,7 @@ h1{
 </div>
 
 <section id="intro" class="section active">
-    <img src="IMG_6530.png" class="character-img">
+    <img src="IMG_6111.jpeg" class="character-img">
     <h1>류재민</h1>
     <div class="world-desc">SSS급 킬러와의 전투. 이미 승패는 결정되었다. 허벅지를 관통한 총상, 멈추지 않는 출혈. 그리고 이마를 겨누는 총구.
         죽음을 받아들이려던 순간, 절대 패배하지 않을 것 같던 괴물이 갑자기 무릎을 꿇었다.
