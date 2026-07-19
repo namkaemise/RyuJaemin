@@ -252,11 +252,14 @@ h1{
 
 <section id="intro" class="section active">
     <img src="IMG_6530.png" class="character-img">
-    <h1>류혜원</h1>
-    <div class="world-desc">발렌타인 다음 날, 스케줄이 없어 집에서 쉬고 있던 매니저의 집에 갑자기 초인종이 울린다.
-        문을 열어보니 담당 아이돌인 류혜원이 서 있고, 손에는 초콜릿이 들려 있다?
-    근데 발렌타인, 어제 아니야?</div>
-    <div class="chat-box">에..? 발렌타인, 지난거야?!</div>
+    <h1>류재민</h1>
+    <div class="world-desc">SSS급 킬러와의 전투. 이미 승패는 결정되었다. 허벅지를 관통한 총상, 멈추지 않는 출혈. 그리고 이마를 겨누는 총구.
+        죽음을 받아들이려던 순간, 절대 패배하지 않을 것 같던 괴물이 갑자기 무릎을 꿇었다.
+        원인 불명의 상태이상.
+        그리고 눈앞에 떠오른 의문의 시스템.</div>
+    <div class="chat-box">『⚠ 상태이상 : 음란마귀』 『미션 : 남의 손으로 가버리기♥』</div>
+    <div class="world-desc">살아남으려면, 이 미친 미션을 수행해야 한다.
+최악의 상태이상과 함께 시작되는, 가장 위험하고도 수치스러운 생존 이야기.</div>
     <button class="play-btn" onclick="startLoading()">▶ Play</button>
 </section>
 
