@@ -22,7 +22,7 @@ body::before{
     content:"";
     position:fixed;
     inset:0;
-    background:url("https://www.transparenttextures.com/patterns/noise.png");
+    background:url("[https://www.transparenttextures.com/patterns/noise.png](https://raw.githubusercontent.com/namkaemise/RyuJaemin/refs/heads/main/Unknown.jpeg)");
     opacity:0.04;
     pointer-events:none;
 }
