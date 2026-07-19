@@ -121,7 +121,7 @@ js/
 
 images/
     background/
-        title_bg.png
+        무제413_20260718172638.png
 
     ui/
         name_box.png
